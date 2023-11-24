@@ -1,0 +1,39 @@
+@media screen and (min-width:1201px) {
+    .container{
+        width: 80% !important;
+    }
+    .navbar .nav-item .nav-link {
+        margin-inline: 13px !important;
+    }
+    .contact{
+        padding-inline: 50px;
+    }
+   
+}
+@media only screen and (max-width:1200px) { 
+    .modal-dialog{
+        top: 15%;
+        right:0;
+    }
+    .testimonial p{
+        width: auto;
+    }
+}
+@media only screen and (max-width:767px) { 
+    .navbar .nav-item .nav-link {
+        text-align: center !important;
+        margin: auto !important;
+    }
+    .navbar .nav-item .nav-link::after  {
+        width: 14% !important;
+    }
+    .header h1{
+        font-size: 30px !important;
+    }
+
+}
+@media only screen and (max-width:308px) { 
+    .about button{
+        margin-top: 6px !important;
+    }
+}
